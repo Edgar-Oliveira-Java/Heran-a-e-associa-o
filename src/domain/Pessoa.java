@@ -1,8 +1,8 @@
 package domain;
 
 public class Pessoa {
-    private String name;
-    private int age;
+    protected String name;
+    protected int age;
 
     public Pessoa(String name, int age) {
         this.name = name;
